@@ -1,7 +1,7 @@
 # Makefile for LaTeX documents with ABC music notation
 
 # Main document (without extension)
-MAIN = document
+MAIN = example
 
 # Find all ABC files
 ABC_FILES = $(wildcard *.abc)

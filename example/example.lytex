@@ -1,5 +1,12 @@
 \documentclass{article}
+
+\title{Simple Sample}
+\author{My Name}
+\date{\today}
+
 \begin{document}
+
+\maketitle
 
 \section*{Some basic examples}
 
