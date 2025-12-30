@@ -37,8 +37,8 @@ clean:
 	rm -rf [0-9a-f][0-9a-f]/
 
 # Clean everything including final PDF
-cleanall: clean
+realclean: clean
 	rm -f $(PDF)
 
 # Phony targets
-.PHONY: all clean cleanall
+.PHONY: all clean realclean
