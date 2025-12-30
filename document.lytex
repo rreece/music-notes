@@ -1,0 +1,12 @@
+\documentclass{article}
+\begin{document}
+
+\section*{Some Musical Examples}
+
+Here's our first tune:
+\lilypondfile{tune1.ly}
+
+And a familiar melody:
+\lilypondfile{tune2.ly}
+
+\end{document}
