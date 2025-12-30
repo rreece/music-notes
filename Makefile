@@ -12,9 +12,6 @@ LY_FILES = $(ABC_FILES:.abc=.ly)
 # Final output
 PDF = $(MAIN).pdf
 
-# LilyPond working directory
-LILY_DIR = lily-tmp
-
 # Default target
 all: $(PDF)
 
@@ -24,7 +21,7 @@ all: $(PDF)
 
 # Process LilyPond snippets in LaTeX
 $(MAIN).tex: $(MAIN).lytex $(LY_FILES)
-	lilypond-book --output=. --pdf --lily-output-dir=$(LILY_DIR) $(MAIN).lytex
+	lilypond-book --output=. --pdf $(MAIN).lytex
 
 # Compile LaTeX to PDF
 $(PDF): $(MAIN).tex
@@ -34,12 +31,9 @@ $(PDF): $(MAIN).tex
 # Clean intermediate files
 clean:
 	rm -f $(LY_FILES)
-	rm -f $(MAIN).tex
+	rm -f $(MAIN).tex $(MAIN).dep
 	rm -f *.aux *.log *.out
-	rm -f $(MAIN).dep
-	rm -f tmp-*.pdf tmp-*.eps tmp-*.ly
-	rm -rf $(LILY_DIR)/
-	rm -rf out-www/
+	rm -r lock
 	rm -rf [0-9a-f][0-9a-f]/
 
 # Clean everything including final PDF
