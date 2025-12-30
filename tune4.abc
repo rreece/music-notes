@@ -1,0 +1,16 @@
+% From: https://trillian.mit.edu/~jc/music/abc/doc/ABCtut_Clefs.html
+X: 1
+T: Three bass lines
+C: Rock and roll
+M: 8/4
+L: 1/4
+K: C
+V: 1 clef=bass
+| CDEF GABc | cdef gabc' | c'bag fedc | cBAG FEDC |
+w: C D E F G A B c c d e f g a b c' c' b a g f e d c c B A G F E D C
+V: 2 clef=bass middle=D
+| C,D,E,F, G,A,B,C | CDEF GABc | cBAG FEDC | CB,A,G, F,E,D,C, |
+w: C, D, E, F, G, A, B, C C D E F G A B c c B A G F E D C C B, A, G, F, E, D, C,
+V: 3 clef=bass,,
+| C,,D,,E,,F,, G,,A,,B,,C, | C,D,E,F, G,A,B,C | CB,A,G, F,E,D,C, | C,B,,A,,G,, F,,E,,D,,C,, |
+w: C,, D,, E,, F,, G,, A,, B,, C, C, D, E, F, G, A, B, C C B, A, G, F, E, D, C, C, B,, A,, G,, F,, E,, D,, C,,
