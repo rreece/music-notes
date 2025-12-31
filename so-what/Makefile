@@ -22,9 +22,10 @@ all: $(PDF)
 $(LYTEX_FILE): $(MD_FILE) $(META_FILE)
 	pandoc $(MD_FILE) $(META_FILE) -o $(LYTEX_FILE) --standalone --to latex
 
-# Convert ABC to LilyPond
+# Convert ABC to LilyPond and post-process chord formatting
 %.ly: %.abc
 	abc2ly $< -o $@
+	./format-lily-chords.py $@
 
 # Process LilyPond snippets in LaTeX
 $(MAIN).tex: $(LYTEX_FILE) $(LY_FILES)
@@ -43,6 +44,7 @@ clean:
 	rm -f *.aux *.log *.out
 	rm -f lock
 	rm -f tmp*.pdf
+	rm -f snippet-names-*
 	rm -rf [0-9a-f][0-9a-f]/
 
 # Clean everything including final PDF
