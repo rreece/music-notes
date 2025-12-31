@@ -29,3 +29,9 @@ Typesetting:
 -   [abcnotation.com](https://abcnotation.com/)
 -   [lilypond.org](https://lilypond.org/)
 
+Author
+-------------------------------------------------------------------------------
+
+Ryan Reece ([@rreece](https://github.com/rreece))
+Created: December 30, 2025
+
