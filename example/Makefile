@@ -1,7 +1,10 @@
-# Makefile for LaTeX documents with ABC music notation
-
 # Main document (without extension)
 MAIN = example
+
+# Source files
+MD_FILE = $(MAIN).md
+META_FILE = meta.yaml
+LYTEX_FILE = $(MAIN).lytex
 
 # Find all ABC files
 ABC_FILES = $(wildcard *.abc)
@@ -15,13 +18,17 @@ PDF = $(MAIN).pdf
 # Default target
 all: $(PDF)
 
+# Convert markdown to lytex using pandoc
+$(LYTEX_FILE): $(MD_FILE) $(META_FILE)
+	pandoc $(MD_FILE) $(META_FILE) -o $(LYTEX_FILE) --standalone --to latex
+
 # Convert ABC to LilyPond
 %.ly: %.abc
 	abc2ly $< -o $@
 
 # Process LilyPond snippets in LaTeX
-$(MAIN).tex: $(MAIN).lytex $(LY_FILES)
-	lilypond-book --output=. --pdf $(MAIN).lytex
+$(MAIN).tex: $(LYTEX_FILE) $(LY_FILES)
+	lilypond-book --output=. --pdf $(LYTEX_FILE)
 
 # Compile LaTeX to PDF
 $(PDF): $(MAIN).tex
@@ -31,14 +38,16 @@ $(PDF): $(MAIN).tex
 # Clean intermediate files
 clean:
 	rm -f $(LY_FILES)
+	rm -f $(LYTEX_FILE)
 	rm -f $(MAIN).tex $(MAIN).dep
 	rm -f *.aux *.log *.out
-	rm -r lock
+	rm -f lock
+	rm -f tmp*.pdf
 	rm -rf [0-9a-f][0-9a-f]/
 
 # Clean everything including final PDF
-realclean: clean
+cleanall: clean
 	rm -f $(PDF)
 
 # Phony targets
-.PHONY: all clean realclean
+.PHONY: all clean cleanall
