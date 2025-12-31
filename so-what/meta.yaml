@@ -3,6 +3,6 @@ title: "The So What Chord"
 author: "Ryan Reece"
 date: \today
 documentclass: article
-geometry: margin=0.5in
+geometry: margin=0.75in
 fontsize: 11pt
 ---
