@@ -1,0 +1,36 @@
+# Some basic examples
+
+Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
+
+## First examples
+
+Here's our first tune:
+
+\vspace{1.0em}
+
+\lilypondfile{tune1.ly}
+
+Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
+
+And a familiar melody:
+
+\vspace{1.0em}
+
+\lilypondfile{tune2.ly}
+
+Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
+
+## Multiple voices
+
+With treble and bass clefs:
+
+\vspace{1.0em}
+
+\lilypondfile{tune3.ly}
+
+And with multiple bass lines:
+
+\vspace{1.0em}
+
+\lilypondfile{tune4.ly}
+
