@@ -1,0 +1,10 @@
+---
+title: "Chord Theory"
+author: "Ryan Reece"
+date: \today
+documentclass: article
+geometry: margin=0.75in
+fontsize: 11pt
+number-sections: true
+numbersections: true
+---
