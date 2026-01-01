@@ -3,6 +3,6 @@ title: "Simple Sample"
 author: "Ryan Reece"
 date: \today
 documentclass: article
-geometry: margin=1in
+geometry: margin=0.75in
 fontsize: 11pt
 ---
