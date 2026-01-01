@@ -4,6 +4,9 @@ music-notes
 This repo is for my music theory notes.
 
 
+![](so-what/img/so-what-chord.png)
+
+
 Typesetting
 -------------------------------------------------------------------------------
 
