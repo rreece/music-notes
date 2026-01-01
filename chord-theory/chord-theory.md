@@ -16,6 +16,21 @@ The sequence 2212221 defines the major mode.
 The major mode notes naturally occur on the white keys in the key of C.
 The sequence 2122212 defines the minor mode.
 The minor mode notes naturally occur on the white keys in the key of A.
+There are seven modes in total that all use the same seven notes, just starting from different positions
+for the root note.
+
+Table: All the modes in 12-tone music. {#tbl:modes}
+
+| Mode             | Interval pattern | Root for all white  | Notes for C root             | Character              |
+|:-----------------|:-----------------|:--------------------|:-----------------------------|:-----------------------|
+| Ionian (major)   | 2212221          | C                   | C D E F G A B                | Bright, happy          |
+| Dorian           | 2122212          | D                   | C D E$\flat$ F G A B$\flat$  | Minor, raised 6th  |
+| Phrygian         | 1222122          | E                   | C D$\flat$ E$\flat$ F G A$\flat$ B$\flat$   | Dark, Spanish sound    |
+| Lydian           | 2221221          | F                   | C D E F$\sharp$ G A B        | Dreamy, raised 4th     |
+| Mixolydian       | 2212212          | G                   | C D E F G A B$\flat$         | Major, flat 7th    |
+| Aeolian (minor)  | 2122122          | A                   | C D E$\flat$ F G A$\flat$ B$\flat$    | Sad, melancholic       |
+| Locrian          | 1221222          | B                   | C D$\flat$ E$\flat$ F G$\flat$ A$\flat$ B$\flat$   | Unstable, diminished   |
+
 
 ## Intervals
 
@@ -44,11 +59,11 @@ The tritone is also called an augmented fourth or a diminished fifth (A4/d5).
 
 ## Trichords
 
-The scafolding on which we will build chords are trichords: 1-3-5, a perfect 5th, and then the minor or major color of the chord is determined by the 3rd.
+The scafolding on which we will build chords are trichords: 1-3-5, a perfect 5th, and then the minor or major quality of the chord is determined by the 3rd.
 
 \lilypondfile{trichords.ly}
 
-## Seven-chords
+## Seventh chords and beyond
 
 A dominant seventh chord (C7) is a major trichord with an additional minor 7th interval added.
 A major seventh chord (CM7 or Cmaj7)  is a major trichord with an additional major 7th interval added.
