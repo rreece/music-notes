@@ -2,24 +2,26 @@
 
 Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
 
+
 ## Modes
 
 The initial goal is to introduce the concept of a *mode* in music theory, and the major and minor modes as examples.
 
-A C-major and A-minor scales are:
+In *diatonic* music there are seven notes in a scale before coming to the *octave* which has double the frequency of the original root note.
+
+Example C-major and A-minor scales are:
 
 \lilypondfile{c-major-scale.ly}
 
 where 1 and 2 denote that a note is a half step (1 semitone) or a whole step (2 semitones) above the previous note.
 
-The sequence 2212221 defines the major mode.
+The sequence 2212221 defines the *major mode*.
 The major mode notes naturally occur on the white keys in the key of C.
-The sequence 2122212 defines the minor mode.
+The sequence 2122122 defines the *minor mode*.
 The minor mode notes naturally occur on the white keys in the key of A.
-There are seven modes in total that all use the same seven notes, just starting from different positions
-for the root note.
+There are seven modes in total that all use the same seven notes, just starting from different positions for the root note.
 
-Table: All the modes in 12-tone music. {#tbl:modes}
+Table: All the diatonic modes in 12-tone music. {#tbl:modes}
 
 | Mode             | Interval pattern | Root for all white  | Notes for C root             | Character              |
 |:-----------------|:-----------------|:--------------------|:-----------------------------|:-----------------------|
@@ -57,11 +59,13 @@ Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 
 The tritone is also called an augmented fourth or a diminished fifth (A4/d5).
 
+
 ## Trichords
 
 The scafolding on which we will build chords are trichords: 1-3-5, a perfect 5th, and then the minor or major quality of the chord is determined by the 3rd.
 
 \lilypondfile{trichords.ly}
+
 
 ## Seventh chords and beyond
 
@@ -75,4 +79,11 @@ There exist augmented and diminished versions of seventh chords that raise/lower
 All these are inversions of Cmaj7:
 
 \lilypondfile{c-maj-7-invesions.ly}
+
+
+## Chord progressions
+
+I ii iii IV V vi vii${}^{\circ}$
+
+Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
 
