@@ -43,6 +43,7 @@ clean:
 	rm -f *.aux *.log *.out
 	rm -f lock
 	rm -f tmp*.pdf
+	rm -f snippet-names-*
 	rm -rf [0-9a-f][0-9a-f]/
 
 # Clean everything including final PDF
