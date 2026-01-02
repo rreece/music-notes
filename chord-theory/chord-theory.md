@@ -16,7 +16,7 @@ Example C-major and A-minor scales are:
 where 1 and 2 denote that a note is a half step (1 semitone) or a whole step (2 semitones) above the previous note.
 
 The sequence 2212221 defines the *major mode*.
-The major mode notes naturally occur on the white keys in the key of C.
+The major mode notes naturally occur on the white keys of a piano (no accents) in the key of C (*i.e.* when C is the root).
 The sequence 2122122 defines the *minor mode*.
 The minor mode notes naturally occur on the white keys in the key of A.
 There are seven modes in total that all use the same seven notes, just starting from different positions for the root note.
@@ -63,6 +63,8 @@ The tritone is also called an augmented fourth or a diminished fifth (A4/d5).
 ## Trichords
 
 The scafolding on which we will build chords are trichords: 1-3-5, a perfect 5th, and then the minor or major quality of the chord is determined by the 3rd.
+Here are C-major and C-minor chords, and their first and second inversions, derived by rotating the bottom note to an octave higher.
+Following that are augmented and diminished versions of a C chord, where the 5th is raised or lowered a half step, respectively.
 
 \lilypondfile{trichords.ly}
 
@@ -76,14 +78,19 @@ There exist augmented and diminished versions of seventh chords that raise/lower
 
 \lilypondfile{sevenchords.ly}
 
-All these are inversions of Cmaj7:
+These are Cmaj7 and its inversions, followed by variants of Em11:
 
 \lilypondfile{c-maj-7-invesions.ly}
 
 
 ## Chord progressions
 
-I ii iii IV V vi vii${}^{\circ}$
+Now we have introduced enough topics to ask a natural question:
+if one wants to stay within a certain key in given mode, what chords are allowed?
+
+Major: I ii iii IV V vi vii${}^{\circ}$
+
+Minor: i ii${}^{\circ}$ III iv v VI VII
 
 Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
 
