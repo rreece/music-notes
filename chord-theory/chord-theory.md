@@ -87,7 +87,8 @@ making it the standard tuning system for Western music since the 18th century.
 
 # Trichords
 
-The scafolding on which we will build chords are trichords: 1-3-5, a perfect 5th, and then the minor or major quality of the chord is determined by the 3rd.
+The scaffolding on which we will build chords are trichords, consisting of scale degrees 1-3-5 (root, third, fifth).
+The minor or major quality of the chord is determined by the 3rd interval being major or minor.
 Here are C-major and C-minor chords, and their first and second inversions, derived by rotating the bottom note to an octave higher.
 Following that are augmented and diminished versions of a C chord, where the 5th is raised or lowered a half step, respectively.
 
@@ -96,12 +97,17 @@ Following that are augmented and diminished versions of a C chord, where the 5th
 
 # Seventh chords and beyond
 
+Adding a fourth note to a trichord creates richer, more complex harmonies.
+The most common extension is adding a 7th above the root.
+
 A dominant seventh chord (C7) is a major trichord with an additional minor 7th interval added.
 A major seventh chord (CM7 or Cmaj7)  is a major trichord with an additional major 7th interval added.
 A minor seventh chord (Cm7)  is a minor trichord with an additional minor 7th interval added.
 There exist augmented and diminished versions of seventh chords that raise/lower the 5th and/or the 7th intervals.
 
 \lilypondfile{sevenchords.ly}
+
+Extensions can continue beyond the 7th to create 9th, 11th, and 13th chords, which are common in jazz.
 
 These are Cmaj7 and its inversions, followed by variants of Em11:
 
@@ -115,7 +121,7 @@ Now we have introduced enough topics to ask a natural question:
 If one wants to stay within a certain key in given mode, what chords are allowed?
 
 For the major and minor modes, the answer turns out to be,
-in roman numeral notation where major chords are written in captial letters
+in roman numeral notation where major chords are written in capital letters
 and minor chords are written in lower case letters
 
 Major: I ii iii IV V vi vii${}^{\circ}$     
