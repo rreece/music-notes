@@ -3,12 +3,13 @@
 This document is my attempt to write the brief introduction to music theory I wish I had.
 I try to motivate from first principles why music has the structure it has
 and what the palette of options are.
+What does it take to make a song?
 
 The initial goal is to introduce the concept of a *mode* in music theory,
 and to focus on the major and minor modes as examples.
 
 
-## Modes
+# Modes
 
 In *diatonic* music there are seven notes in a scale before coming to the *octave* which has double the frequency of the original root note.
 
@@ -19,13 +20,11 @@ Example C-major and A-minor scales are:
 where 1 and 2 denote that a note is a half step (1 semitone) or a whole step (2 semitones) above the previous note.
 
 The sequence 2212221 defines the *major mode*.
-The major mode notes naturally occur on the white keys of a piano (no accents) in the key of C (*i.e.* when C is the root).
+The major mode notes naturally occur on the white keys of a piano (no accents) in the key of C major (*i.e.* when C is the root).
 The sequence 2122122 defines the *minor mode*.
-The minor mode notes naturally occur on the white keys in the key of A.
+The minor mode notes naturally occur on the white keys in the key of A minor.
 There are seven modes in total in diatonic music that all use the same seven notes,
 just starting from different positions for the root note.
-
-Western music tends to focus on using the major and minor modes, but there are exceptions.
 
 Table: All the diatonic modes in 12-tone music. {#tbl:modes}
 
@@ -39,8 +38,10 @@ Table: All the diatonic modes in 12-tone music. {#tbl:modes}
 | Aeolian (minor)  | 2122122          | A                   | C D E$\flat$ F G A$\flat$ B$\flat$    | Sad, melancholic       |
 | Locrian          | 1221222          | B                   | C D$\flat$ E$\flat$ F G$\flat$ A$\flat$ B$\flat$   | Unstable, diminished   |
 
+Western music tends to focus on using the major and minor modes, but there are exceptions.
 
-## Intervals
+
+# Intervals
 
 Now we introduce *polyphony*, playing more than one note at a time.
 An *interval* is the gap in pitch (frequency) between two notes.
@@ -77,7 +78,7 @@ Why 12 in 12-tone music?
 TODO: Explain equal temperament.
 
 
-## Trichords
+# Trichords
 
 The scafolding on which we will build chords are trichords: 1-3-5, a perfect 5th, and then the minor or major quality of the chord is determined by the 3rd.
 Here are C-major and C-minor chords, and their first and second inversions, derived by rotating the bottom note to an octave higher.
@@ -86,7 +87,7 @@ Following that are augmented and diminished versions of a C chord, where the 5th
 \lilypondfile{trichords.ly}
 
 
-## Seventh chords and beyond
+# Seventh chords and beyond
 
 A dominant seventh chord (C7) is a major trichord with an additional minor 7th interval added.
 A major seventh chord (CM7 or Cmaj7)  is a major trichord with an additional major 7th interval added.
@@ -100,18 +101,35 @@ These are Cmaj7 and its inversions, followed by variants of Em11:
 \lilypondfile{c-maj-7-invesions.ly}
 
 
-## Chord progressions
+# Chord progressions
 
 Now we have introduced enough topics to ask a natural question:
 
 If one wants to stay within a certain key in given mode, what chords are allowed?
 
+For the major and minor modes, the answer turns out to be,
+in roman numeral notation where major chords are written in captial letters
+and minor chords are written in lower case letters
+
 Major: I ii iii IV V vi vii${}^{\circ}$     
 Minor: i ii${}^{\circ}$ III iv v VI VII        
 
+To step through why this is the case, consider the C-major key as an example.
+The 1st trichord is clearly a C-major chord: C-E-G.
+The 2nd trichord beginning with D as the root is D-F-A,
+where note that since D-F is a minor 3rd this trichord is minor.
+Therefore the second chord in the key of C major is Dm.
+The third chord is E-G-A, which is Em, and so on.
+One can tell which notes are allowed in each chord by remembering that
+we always pick only from the white piano keys in the key of C major.
+
+\lilypondfile{c-major-chords.ly}
+
+The chords that are allowed naturally in each mode are summarized in Table&nbsp;\ref{tbl:chords-for-modes}.
+
 Table: Chords that are natural for each mode. {#tbl:chords-for-modes}
 
-| Mode            | 1       | 2         | 3         | 4       | 5       | 6         | 7           |
+| Mode \\ Chord   | 1       | 2         | 3         | 4       | 5       | 6         | 7           |
 |:----------------|:--------|:----------|:----------|:--------|:--------|:----------|:------------|
 | Ionian (major)  | I       | ii        | iii       | IV      | V       | vi        | vii${}^{\circ}$ |
 | Aeolian (minor) | i       | ii${}^{\circ}$ | III       | iv      | v       | VI        | VII         |
@@ -121,5 +139,33 @@ Table: Chords that are natural for each mode. {#tbl:chords-for-modes}
 | Mixolydian      | I       | ii        | iii${}^{\circ}$ | IV      | v       | vi        | VII         |
 | Locrian         | i${}^{\circ}$ | II        | iii       | iv      | V       | VI        | vii         |
 
-Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
+Note that the major chords that are allowed in a major mode key are I, IV, and V.
+Many pop songs have been written that utilize or focus on only these chords, perhaps throwing in a vi.
+Common chord progressions in Western pop music are listed in
+Table&nbsp;\ref{tbl:pop-major-progressions}.
+and Table&nbsp;\ref{tbl:pop-minor-progressions}.
+
+Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-major-progressions}
+
+| Name/Description          | Progression           | Example in C major  | Notable songs                                           |
+|:--------------------------|:----------------------|:--------------------|:--------------------------------------------------------|
+| Pop-punk progression      | I-V-vi-IV             | C-G-Am-F            | "Let It Be", "Don't Stop Believin", "Someone Like You", "Glycerine", "What's My Age Again?" |
+| '50s, doo-wop progression | I-vi-IV-V             | C-Am-F-G            | "Stand By Me", "Blue Moon", "Every Breath You Take"     |
+| Sensitive female progression | vi-IV-I-V          | Am-F-C-G            | "Zombie", "Apologize"                                   |
+| Three-chord rock          | I-IV-V                | C-F-G               | "La Bamba", "Twist and Shout", "Wild Thing"             |
+| Canon progression         | I-V-vi-iii-IV-I-IV-V  | C-G-Am-Em-F-C-F-G   | "Pachelbel's Canon" progression                         |
+| Jazz turnaround           | ii-V-I                | Dm-G-C              | Jazz standard turnaround                                |
+| Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon" (variation)               |
+| Singer-songwriter         | I-IV-vi-V             | C-F-Am-G            | "Self Esteem", "What's Up"                              |
+| Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
+| Mixolydian vamp           | I-bVII-IV             | C-Bb-F              | "Sweet Child O' Mine", modal mixture                    |
+
+Table: Common chord progressions in Western pop music in minor keys. {#tbl:pop-minor-progressions}
+
+| Name/Description          | Progression           | Example in A minor  | Notable songs                                           |
+|:--------------------------|:----------------------|:--------------------|:--------------------------------------------------------|
+| Aeolian vamp              | i-VI-III-VII          | Am-F-C-G            | "All Along the Watchtower", "Stairway to Heaven" intro  |
+| Minor three-chord         | i-iv-v                | Am-Dm-Em            | "Summertime", basic minor progression                   |
+| Andalusian cadence        | i-VI-VII              | Am-F-G              | "House of the Rising Sun", Andalusian cadence variant   |
+| Descending minor          | i-VII-VI-V            | Am-G-F-E            | Descending progression, common in minor keys            |
 
