@@ -7,6 +7,28 @@ This repo is for my music theory notes.
 ![](so-what/img/so-what-chord.png)
 
 
+Install
+-------------------------------------------------------------------------------
+
+On MacOS:
+
+```
+brew install lilypond
+brew install abc2ly
+brew install pandoc
+brew install pandoc-crossref
+```
+
+On Ubuntu:
+
+```
+sudo apt install lilypond
+sudo apt install abc2ly
+sudo apt install pandoc
+sudo apt install pandoc-crossref
+```
+
+
 Typesetting
 -------------------------------------------------------------------------------
 
@@ -35,6 +57,6 @@ Typesetting:
 Author
 -------------------------------------------------------------------------------
 
-Ryan Reece ([@rreece](https://github.com/rreece))
-Created: December 30, 2025
+Ryan Reece ([@rreece](https://github.com/rreece))       
+Created: December 30, 2025      
 

@@ -20,7 +20,7 @@ all: $(PDF)
 
 # Convert markdown to lytex using pandoc
 $(LYTEX_FILE): $(MD_FILE) $(META_FILE)
-	pandoc $(MD_FILE) $(META_FILE) -o $(LYTEX_FILE) --standalone --to latex
+	pandoc $(MD_FILE) $(META_FILE) -o $(LYTEX_FILE) --standalone --from markdown --to latex --filter pandoc-crossref
 
 # Convert ABC to LilyPond
 %.ly: %.abc
@@ -43,6 +43,7 @@ clean:
 	rm -f *.aux *.log *.out
 	rm -f lock
 	rm -f tmp*.pdf
+	rm -f snippet-*
 	rm -rf [0-9a-f][0-9a-f]/
 
 # Clean everything including final PDF

@@ -27,6 +27,6 @@ Wikipedia:
 Author
 -------------------------------------------------------------------------------
 
-Ryan Reece ([@rreece](https://github.com/rreece))
-Created: December 30, 2025
+Ryan Reece ([@rreece](https://github.com/rreece))        
+Created: December 30, 2025        
 
