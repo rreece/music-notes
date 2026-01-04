@@ -52,7 +52,7 @@ We will use notes of different intervals together to build chords.
 
 Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 
-| Interval | Name           | Semitones |     Frequency ratio (just tuning) | Frequency ratio (equal temperament) |
+| Interval | Name           | Semitones |     Frequency ratio (pure tuning) | Frequency ratio (equal temperament) |
 |:---------|:---------------|----------:|--------------------------------:|------------------------------------:|
 | m2       | Minor second   |         1 |                           16:15 |           $2^{1/12} \approx 1.0595$ |
 | M2       | Major second   |         2 |                             9:8 |           $2^{2/12} \approx 1.1225$ |
@@ -75,7 +75,14 @@ Why does music sound like that?
 Why certain tunings?
 Why 12 in 12-tone music?
 
-TODO: Explain equal temperament.
+In *just intonation* (or *pure tuning*), intervals use simple integer frequency ratios like 3:2 for a perfect fifth.
+These ratios produce the most consonant, pure-sounding intervals because the overtones align perfectly.
+However, just intonation creates problems when changing keys or playing complex harmony.
+*Equal temperament* solves this by dividing the octave into 12 equal semitones, where each semitone has a frequency ratio of $2^{1/12} \approx 1.0595$.
+This means a perfect fifth has a ratio of $2^{7/12} \approx 1.4983$ instead of exactly 3:2 = 1.5.
+While equal temperament makes most intervals slightly out of tune compared to their pure versions,
+it allows music to be played in any key with the same relative tuning,
+making it the standard tuning system for Western music since the 18th century.
 
 
 # Trichords
