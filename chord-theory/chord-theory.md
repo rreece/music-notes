@@ -1,11 +1,14 @@
 # Introduction
 
-Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
+This document is my attempt to write the brief introduction to music theory I wish I had.
+I try to motivate from first principles why music has the structure it has
+and what the palette of options are.
+
+The initial goal is to introduce the concept of a *mode* in music theory,
+and to focus on the major and minor modes as examples.
 
 
 ## Modes
-
-The initial goal is to introduce the concept of a *mode* in music theory, and the major and minor modes as examples.
 
 In *diatonic* music there are seven notes in a scale before coming to the *octave* which has double the frequency of the original root note.
 
@@ -19,7 +22,10 @@ The sequence 2212221 defines the *major mode*.
 The major mode notes naturally occur on the white keys of a piano (no accents) in the key of C (*i.e.* when C is the root).
 The sequence 2122122 defines the *minor mode*.
 The minor mode notes naturally occur on the white keys in the key of A.
-There are seven modes in total that all use the same seven notes, just starting from different positions for the root note.
+There are seven modes in total in diatonic music that all use the same seven notes,
+just starting from different positions for the root note.
+
+Western music tends to focus on using the major and minor modes, but there are exceptions.
 
 Table: All the diatonic modes in 12-tone music. {#tbl:modes}
 
@@ -36,13 +42,16 @@ Table: All the diatonic modes in 12-tone music. {#tbl:modes}
 
 ## Intervals
 
-Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
+Now we introduce *polyphony*, playing more than one note at a time.
+An *interval* is the gap in pitch (frequency) between two notes.
+Each interval has a name as listed in Table&nbsp;\ref{tbl:intervals}.
+We will use notes of different intervals together to build chords.
 
 \lilypondfile{intervals.ly}
 
 Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 
-| Interval | Name           | Semitones |     Frequency ratio (just/pure) | Frequency ratio (equal temperament) |
+| Interval | Name           | Semitones |     Frequency ratio (just tuning) | Frequency ratio (equal temperament) |
 |:---------|:---------------|----------:|--------------------------------:|------------------------------------:|
 | m2       | Minor second   |         1 |                           16:15 |           $2^{1/12} \approx 1.0595$ |
 | M2       | Major second   |         2 |                             9:8 |           $2^{2/12} \approx 1.1225$ |
@@ -58,6 +67,14 @@ Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 | O        | Octave         |        12 |                             2:1 |                $2^{12/12} = 2.0000$ |
 
 The tritone is also called an augmented fourth or a diminished fifth (A4/d5).
+
+That certain intervals have simple mathematical ratios for the ratios of
+their frequencies is a rough start at the answer to:
+Why does music sound like that?
+Why certain tunings?
+Why 12 in 12-tone music?
+
+TODO: Explain equal temperament.
 
 
 ## Trichords
@@ -89,9 +106,20 @@ Now we have introduced enough topics to ask a natural question:
 
 If one wants to stay within a certain key in given mode, what chords are allowed?
 
-Major: I ii iii IV V vi vii${}^{\circ}$
+Major: I ii iii IV V vi vii${}^{\circ}$     
+Minor: i ii${}^{\circ}$ III iv v VI VII        
 
-Minor: i ii${}^{\circ}$ III iv v VI VII
+Table: Chords that are natural for each mode. {#tbl:chords-for-modes}
+
+| Mode            | 1       | 2         | 3         | 4       | 5       | 6         | 7           |
+|:----------------|:--------|:----------|:----------|:--------|:--------|:----------|:------------|
+| Ionian (major)  | I       | ii        | iii       | IV      | V       | vi        | vii${}^{\circ}$ |
+| Aeolian (minor) | i       | ii${}^{\circ}$ | III       | iv      | v       | VI        | VII         |
+| Dorian          | i       | ii        | III       | IV      | v       | vi${}^{\circ}$ | VII         |
+| Phrygian        | i       | II        | III       | iv      | v${}^{\circ}$ | VI        | vii         |
+| Lydian          | I       | II        | iii       | iv${}^{\circ}$ | V       | vi        | vii         |
+| Mixolydian      | I       | ii        | iii${}^{\circ}$ | IV      | v       | vi        | VII         |
+| Locrian         | i${}^{\circ}$ | II        | iii       | iv      | V       | VI        | vii         |
 
 Lorem ipsum dolor sit amet, duo ut putant verear, nam ut brute utroque. Officiis qualisque conceptam te duo, eu vim soluta numquam, has ut aliquip accusamus. Probo aliquam pri id. Mutat singulis ad vis, eam euismod pertinax an, ea tale volumus vel. At porro soleat est. Debet facilis admodum an sed, at falli feugiat est.
 
