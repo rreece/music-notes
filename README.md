@@ -42,19 +42,6 @@ abc music files: `tune*.abc`.
 Calling `make` builds: markdown → lytex → tex → pdf.
 
 
-Links
--------------------------------------------------------------------------------
-
-Theory:
-
--   [17 Most Common Pop Chord Progressions](https://www.guitarlobby.com/pop-chord-progressions/)
--   [So What Chord](https://www.thejazzpianosite.com/jazz-piano-lessons/jazz-chord-voicings/so-what-chord/)
-
-Typesetting:
-
--   [abcnotation.com](https://abcnotation.com/)
--   [lilypond.org](https://lilypond.org/)
-
 Author
 -------------------------------------------------------------------------------
 
