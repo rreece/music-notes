@@ -122,7 +122,7 @@ If one wants to stay within a certain key in given mode, what chords are allowed
 
 For the major and minor modes, the answer turns out to be,
 in roman numeral notation where major chords are written in capital letters
-and minor chords are written in lower case letters
+and minor chords are written in lowercase letters
 
 Major: I ii iii IV V vi vii${}^{\circ}$     
 Minor: i ii${}^{\circ}$ III iv v VI VII        
@@ -153,7 +153,8 @@ Table: Chords that are natural for each mode. {#tbl:chords-for-modes}
 | Locrian         | i${}^{\circ}$ | II        | iii       | iv      | V       | VI        | vii         |
 
 Note that the major chords that are allowed in a major mode key are I, IV, and V.
-Many pop songs have been written that utilize or focus on only these chords, perhaps throwing in a vi.
+Many pop songs have been written that utilize or focus on only these chords,
+perhaps throwing in a vi chord.
 Common chord progressions in Western pop music are listed in
 Table&nbsp;\ref{tbl:pop-major-progressions}.
 and Table&nbsp;\ref{tbl:pop-minor-progressions}.
@@ -171,7 +172,7 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 | Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon" (variation)               |
 | Singer-songwriter         | I-IV-vi-V             | C-F-Am-G            | "Self Esteem", "What's Up"                              |
 | Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
-| Mixolydian vamp           | I-bVII-IV             | C-Bb-F              | "Sweet Child O' Mine", modal mixture                    |
+| Mixolydian vamp           | I-VII$\flat$-IV       | C-B$\flat$-F        | "Sweet Child O' Mine", modal mixture                    |
 
 Table: Common chord progressions in Western pop music in minor keys. {#tbl:pop-minor-progressions}
 
