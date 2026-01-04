@@ -86,7 +86,8 @@ These are Cmaj7 and its inversions, followed by variants of Em11:
 ## Chord progressions
 
 Now we have introduced enough topics to ask a natural question:
-if one wants to stay within a certain key in given mode, what chords are allowed?
+
+If one wants to stay within a certain key in given mode, what chords are allowed?
 
 Major: I ii iii IV V vi vii${}^{\circ}$
 
