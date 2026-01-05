@@ -54,19 +54,19 @@ We will use notes of different intervals together to build chords.
 Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 
 | Interval | Name           | Semitones |  Frequency ratio (pure) |  Frequency ratio (equal temp.) |
-|:---------|:---------------|----------:|-------------------------------:|-------------------------------------:|
-| m2       | Minor second   |         1 |         16:15 $\approx 1.0667$ |            $2^{1/12} \approx 1.0595$ |
-| M2       | Major second   |         2 |                 9:8 $= 1.1250$ |            $2^{2/12} \approx 1.1225$ |
-| m3       | Minor third    |         3 |                 6:5 $= 1.2000$ |            $2^{3/12} \approx 1.1892$ |
-| M3       | Major third    |         4 |                 5:4 $= 1.2500$ |            $2^{4/12} \approx 1.2599$ |
-| P4       | Perfect fourth |         5 |           4:3 $\approx 1.3333$ |            $2^{5/12} \approx 1.3348$ |
-| A4/d5    | Tritone        |         6 |         45:32 $\approx 1.4062$ |            $2^{6/12} \approx 1.4142$ |
-| P5       | Perfect fifth  |         7 |                 3:2 $= 1.5000$ |            $2^{7/12} \approx 1.4983$ |
-| m6       | Minor sixth    |         8 |                 8:5 $= 1.6000$ |            $2^{8/12} \approx 1.5874$ |
-| M6       | Major sixth    |         9 |           5:3 $\approx 1.6667$ |            $2^{9/12} \approx 1.6818$ |
-| m7       | Minor seventh  |        10 |          16:9 $\approx 1.7778$ |           $2^{10/12} \approx 1.7818$ |
-| M7       | Major seventh  |        11 |                15:8 $= 1.8750$ |           $2^{11/12} \approx 1.8877$ |
-| O        | Octave         |        12 |                 2:1 $= 2.0000$ |                 $2^{12/12} = 2.0000$ |
+|:---------|:---------------|----------:|------------------------:|-------------------------------:|
+| m2       | Minor second   |         1 |   16:15 $\approx 1.067$ |       $2^{1/12} \approx 1.060$ |
+| M2       | Major second   |         2 |           9:8 $= 1.125$ |       $2^{2/12} \approx 1.123$ |
+| m3       | Minor third    |         3 |           6:5 $= 1.200$ |       $2^{3/12} \approx 1.189$ |
+| M3       | Major third    |         4 |           5:4 $= 1.250$ |       $2^{4/12} \approx 1.260$ |
+| P4       | Perfect fourth |         5 |     4:3 $\approx 1.333$ |       $2^{5/12} \approx 1.335$ |
+| A4/d5    | Tritone        |         6 |   45:32 $\approx 1.406$ |       $2^{6/12} \approx 1.414$ |
+| P5       | Perfect fifth  |         7 |           3:2 $= 1.500$ |       $2^{7/12} \approx 1.498$ |
+| m6       | Minor sixth    |         8 |           8:5 $= 1.600$ |       $2^{8/12} \approx 1.587$ |
+| M6       | Major sixth    |         9 |     5:3 $\approx 1.667$ |       $2^{9/12} \approx 1.682$ |
+| m7       | Minor seventh  |        10 |    16:9 $\approx 1.778$ |      $2^{10/12} \approx 1.782$ |
+| M7       | Major seventh  |        11 |          15:8 $= 1.875$ |      $2^{11/12} \approx 1.888$ |
+| O        | Octave         |        12 |           2:1 $= 2.000$ |            $2^{12/12} = 2.000$ |
 
 The tritone is an augmented fourth or a diminished fifth (A4/d5), also called the "devil's interval".
 It is sometimes defined as 45:32 or 64:45 or $\sqrt{2}$:1.
