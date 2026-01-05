@@ -3,6 +3,8 @@ Chord Theory
 
 This is an introduction to how Ryan thinks about music theory.
 
+See a [pdf version here](https://rreece.github.io/docs/chord-theory.pdf).
+
 
 Links
 -------------------------------------------------------------------------------
