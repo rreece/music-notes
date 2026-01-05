@@ -186,9 +186,6 @@ Table&nbsp;\ref{tbl:pop-major-progressions}
 and Table&nbsp;\ref{tbl:pop-minor-progressions}.
 
 
-\newpage
-
-
 Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-major-progressions}
 
 | Name/Description          | Progression           | Example in C major  | Notable songs                                           |
