@@ -125,9 +125,12 @@ Now we have introduced enough topics to ask a natural question:
 
 If one wants to stay within a certain key in given mode, what chords are allowed?
 
+We will use roman numeral notation where major chords are written in capital letters
+and minor chords are written in lowercase letters. 
+Roman numerals are used so the musician may understand the chord progressions
+regardless of the key they are played in.
+
 For the major and minor modes, the answer turns out to be,
-in roman numeral notation where major chords are written in capital letters
-and minor chords are written in lowercase letters
 
 Major: I ii iii IV V vi vii${}^{\circ}$     
 Minor: i ii${}^{\circ}$ III iv v VI VII        
@@ -198,6 +201,7 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 | Jazz turnaround           | ii-V-I                | Dm-G-C              | Jazz standard turnaround                                |
 | Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon"                           |
 | Singer-songwriter         | I-IV-vi-V             | C-F-Am-G            | "Self Esteem", "What's Up"                              |
+| Eight-bar blues           | I-V-IV-IV-I-V-I-V     | C-G-F-F-C-G-C-G     |                                                         |
 | Twelve-bar blues          | I-I-I-I-IV-IV-I-I-V-IV-I-V  | C-C-C-C-F-F-C-C-G-F-C-G  | Boogie-woogie blues                          |
 | Amazing Grace             | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I  | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                        |
 | Canon progression         | I-V-vi-iii-IV-I-IV-V  | C-G-Am-Em-F-C-F-G   | "Pachelbel's Canon" progression                         |
