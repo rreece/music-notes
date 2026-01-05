@@ -115,7 +115,7 @@ These are Cmaj7 and its inversions, followed by variants of Em11:
 \lilypondfile{c-maj-7-invesions.ly}
 
 
-# Chord progressions
+# Diatonic chords
 
 Now we have introduced enough topics to ask a natural question:
 
@@ -139,9 +139,9 @@ we always pick only from the white piano keys in the key of C major.
 
 \lilypondfile{c-major-chords.ly}
 
-The chords that are allowed naturally in each mode are summarized in Table&nbsp;\ref{tbl:chords-for-modes}.
+The chords that are allowed naturally in each mode are summarized in Table&nbsp;\ref{tbl:diatonic-chords}.
 
-Table: Chords that are natural for each mode. {#tbl:chords-for-modes}
+Table: Diatonic chords: chords that are natural for each mode. {#tbl:diatonic-chords}
 
 | Mode \\ Chord   | 1       | 2         | 3         | 4       | 5       | 6         | 7           |
 |:----------------|:--------|:----------|:----------|:--------|:--------|:----------|:------------|
@@ -153,9 +153,25 @@ Table: Chords that are natural for each mode. {#tbl:chords-for-modes}
 | Mixolydian      | I       | ii        | iii${}^{\circ}$ | IV      | v       | vi        | VII         |
 | Locrian         | i${}^{\circ}$ | II        | iii       | iv      | V       | VI        | vii         |
 
+
+# Chord progressions
+
 Note that the major chords that are allowed in a major mode key are I, IV, and V.
 Many pop songs have been written that utilize or focus on only these chords,
 perhaps throwing in a vi chord.
+
+One of the most common chord progressions in Western pop music is I-V-vi-IV, sometimes called the pop-punk progression:
+
+\lilypondfile{pop-punk.ly}
+
+Here we have written it twice, the first time using *power chords*, which are commonly played on guitar in rock music.
+A power chord is a simplified trichord that does not include a 3rd interval, but includes a perfect 5th and an octave.
+In the second progression, we have included the 3rd intervals in the chords.
+
+A common progression in the minor mode is the minor three-chord progression:
+
+\lilypondfile{minor-three-chord.ly}
+
 Common chord progressions in Western pop music are listed in
 Table&nbsp;\ref{tbl:pop-major-progressions}
 and Table&nbsp;\ref{tbl:pop-minor-progressions}.
@@ -168,11 +184,12 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 | '50s, doo-wop progression | I-vi-IV-V             | C-Am-F-G            | "Stand By Me", "Blue Moon", "Every Breath You Take"     |
 | Sensitive female progression | vi-IV-I-V          | Am-F-C-G            | "Zombie", "Apologize"                                   |
 | Three-chord rock          | I-IV-V                | C-F-G               | "La Bamba", "Twist and Shout", "Wild Thing"             |
-| Canon progression         | I-V-vi-iii-IV-I-IV-V  | C-G-Am-Em-F-C-F-G   | "Pachelbel's Canon" progression                         |
 | Jazz turnaround           | ii-V-I                | Dm-G-C              | Jazz standard turnaround                                |
-| Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon" (variation)               |
+| Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon"                           |
 | Singer-songwriter         | I-IV-vi-V             | C-F-Am-G            | "Self Esteem", "What's Up"                              |
 | Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
+| Twelve-bar blues          | I-I-I-I-IV-IV-I-I-V-IV-I-V  | C-C-C-C-F-F-C-C-G-F-C-G  | Boogie-woogie blues                          |
+| Canon progression         | I-V-vi-iii-IV-I-IV-V  | C-G-Am-Em-F-C-F-G   | "Pachelbel's Canon" progression                         |
 | Mixolydian vamp           | I-VII$\flat$-IV       | C-B$\flat$-F        | "Sweet Child O' Mine", modal mixture                    |
 
 Table: Common chord progressions in Western pop music in minor keys. {#tbl:pop-minor-progressions}
@@ -181,6 +198,18 @@ Table: Common chord progressions in Western pop music in minor keys. {#tbl:pop-m
 |:--------------------------|:----------------------|:--------------------|:--------------------------------------------------------|
 | Aeolian vamp              | i-VI-III-VII          | Am-F-C-G            | "All Along the Watchtower", "Stairway to Heaven" intro  |
 | Minor three-chord         | i-iv-v                | Am-Dm-Em            | "Summertime", basic minor progression                   |
-| Andalusian cadence        | i-VI-VII              | Am-F-G              | "House of the Rising Sun", Andalusian cadence variant   |
+| Andalusian cadence        | i-VI-VII              | Am-F-G              | "House of the Rising Sun"                               |
 | Descending minor          | i-VII-VI-V            | Am-G-F-E            | Descending progression, common in minor keys            |
+
+
+\newpage
+
+
+# Modal progressions
+
+Breaking the constraints of relying heavily on just the major and minor modes is a movement called *modal music*.
+
+Simplified sample from "So What" by Miles Davis and Bill Evans:
+
+\lilypondfile{so-what.ly}
 
