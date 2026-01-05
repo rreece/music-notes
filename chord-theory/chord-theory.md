@@ -53,7 +53,7 @@ We will use notes of different intervals together to build chords.
 
 Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 
-| Interval | Name           | Semitones |  Frequency ratio (pure) |  Frequency ratio (equal temp.) |
+| Interval | Name           | Semitones |  Frequency ratio (just) |  Frequency ratio (equal temp.) |
 |:---------|:---------------|----------:|------------------------:|-------------------------------:|
 | m2       | Minor second   |         1 |   16:15 $\approx 1.067$ |       $2^{1/12} \approx 1.060$ |
 | M2       | Major second   |         2 |           9:8 $= 1.125$ |       $2^{2/12} \approx 1.123$ |
@@ -130,7 +130,7 @@ and minor chords are written in lowercase letters.
 Roman numerals are used so the musician may understand the chord progressions
 regardless of the key they are played in.
 
-For the major and minor modes, the answer turns out to be,
+For the major and minor modes, the answer turns out to be
 
 Major: I ii iii IV V vi vii${}^{\circ}$     
 Minor: i ii${}^{\circ}$ III iv v VI VII        
@@ -188,17 +188,18 @@ and Table&nbsp;\ref{tbl:pop-minor-progressions}.
 
 Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-major-progressions}
 
-| Name/Description          | Progression           | Example in C major  | Notable songs                                           |
+| Name                      | Progression           | Example in C major  | Notable songs / Description                             |
 |:--------------------------|:----------------------|:--------------------|:--------------------------------------------------------|
 | Pop-punk progression      | I-V-vi-IV             | C-G-Am-F            | "Let It Be", "Don't Stop Believin", "Someone Like You", "Glycerine", "What's My Age Again?" |
 | '50s, doo-wop progression | I-vi-IV-V             | C-Am-F-G            | "Stand By Me", "Blue Moon", "Every Breath You Take"     |
 | Three-chord rock          | I-IV-V                | C-F-G               | "La Bamba", "Twist and Shout", "Wild Thing"             |
 | Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
 | Alternative progression   | vi-IV-I-V             | Am-F-C-G            | "Zombie", "Apologize"                                   |
-| Blues turnaround          | V-VI-I                | G-F-C               | Blues standard turnaround                                |
-| Eight-bar blues           | I-V-IV-IV-I-V-I-V     | C-G-F-F-C-G-C-G     |                                                         |
+| Blues turnaround          | V-VI-I                | G-F-C               | Blues standard turnaround                               |
+| Eight-bar blues           | I-V-IV-IV-I-V-I-V     | C-G-F-F-C-G-C-G     | "Key to the Highway"                                    |
 | Twelve-bar blues          | I-I-I-I-IV-IV-I-I-V-IV-I-V  | C-C-C-C-F-F-C-C-G-F-C-G  | Boogie-woogie blues                          |
-| Amazing Grace             | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I  | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                        |
+| 14-bar hymn               | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I      | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                        |
+| 14-bar folk song          | I-IV-I-I-ii-V-V7-I-IV-I-IV-I-V-I   | C-F-C-C-D-G-G7-C-F-C-F-C-G-C   | "I've Been Working on the Railroad", "The Eyes of Texas" |
 | Jazz turnaround           | ii-V-I                | Dm-G-C              | Jazz standard turnaround                                |
 | Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon"                           |
 | Singer-songwriter         | I-IV-vi-V             | C-F-Am-G            | "Self Esteem", "What's Up"                              |
