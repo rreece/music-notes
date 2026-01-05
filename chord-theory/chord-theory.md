@@ -79,15 +79,19 @@ Why certain tunings?
 Why 12 in 12-tone music?
 
 In *just intonation* (or *pure tuning*), intervals use simple integer frequency ratios like 3:2 for a perfect fifth.
-These ratios produce the most consonant, pure-sounding intervals because the overtones align perfectly.
-Versions of just intonation where understood in ancient Greece, attributed to Pythagoras and later Eratosthenes.
+These ratios produce the most consonant, pure-sounding intervals because the overtones align perfectly.[^Pythagoras]
 However, just intonation creates problems when changing keys or playing complex harmony.
+
+[^Pythagoras]: Versions of just intonation where understood in ancient Greece, attributed to Pythagoras and later Eratosthenes.
 
 *Equal temperament* solves this by dividing the octave into 12 equal semitones, where each semitone has a frequency ratio of $2^{1/12} \approx 1.0595$.
 This means a perfect fifth has a ratio of $2^{7/12} \approx 1.4983$ instead of exactly 3:2 = 1.5.
 While equal temperament makes most intervals slightly out of tune compared to their pure versions,
 it allows music to be played in any key with the same relative tuning,
-making it the standard tuning system for Western music since the 18th century.
+making it the standard tuning system for Western music since the 18th century.[^EqualTemperament]
+
+[^EqualTemperament]: Equal temperament was first formalized by Zhu Zaiyu in China in 1584,
+    and independently by Simon Stevin in the Netherlands in 1585.
 
 
 # Trichords
