@@ -68,7 +68,7 @@ Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 | M7       | Major seventh  |        11 |                            15:8 |          $2^{11/12} \approx 1.8877$ |
 | O        | Octave         |        12 |                             2:1 |                $2^{12/12} = 2.0000$ |
 
-The tritone is also called an augmented fourth or a diminished fifth (A4/d5).
+The tritone is an augmented fourth or a diminished fifth (A4/d5), also called the "devil's interval".
 
 That certain intervals have simple mathematical ratios for the ratios of
 their frequencies is a rough start at the answer to:
@@ -172,9 +172,15 @@ A common progression in the minor mode is the minor three-chord progression:
 
 \lilypondfile{minor-three-chord.ly}
 
+TODO: More/better examples.
+
 Common chord progressions in Western pop music are listed in
 Table&nbsp;\ref{tbl:pop-major-progressions}
 and Table&nbsp;\ref{tbl:pop-minor-progressions}.
+
+
+\newpage
+
 
 Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-major-progressions}
 
