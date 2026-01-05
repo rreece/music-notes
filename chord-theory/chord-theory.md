@@ -80,7 +80,9 @@ Why 12 in 12-tone music?
 
 In *just intonation* (or *pure tuning*), intervals use simple integer frequency ratios like 3:2 for a perfect fifth.
 These ratios produce the most consonant, pure-sounding intervals because the overtones align perfectly.
+Versions of just intonation where understood in ancient Greece, attributed to Pythagoras and later Eratosthenes.
 However, just intonation creates problems when changing keys or playing complex harmony.
+
 *Equal temperament* solves this by dividing the octave into 12 equal semitones, where each semitone has a frequency ratio of $2^{1/12} \approx 1.0595$.
 This means a perfect fifth has a ratio of $2^{7/12} \approx 1.4983$ instead of exactly 3:2 = 1.5.
 While equal temperament makes most intervals slightly out of tune compared to their pure versions,
@@ -190,13 +192,14 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 |:--------------------------|:----------------------|:--------------------|:--------------------------------------------------------|
 | Pop-punk progression      | I-V-vi-IV             | C-G-Am-F            | "Let It Be", "Don't Stop Believin", "Someone Like You", "Glycerine", "What's My Age Again?" |
 | '50s, doo-wop progression | I-vi-IV-V             | C-Am-F-G            | "Stand By Me", "Blue Moon", "Every Breath You Take"     |
-| Sensitive female progression | vi-IV-I-V          | Am-F-C-G            | "Zombie", "Apologize"                                   |
 | Three-chord rock          | I-IV-V                | C-F-G               | "La Bamba", "Twist and Shout", "Wild Thing"             |
+| Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
+| Alternative progression   | vi-IV-I-V             | Am-F-C-G            | "Zombie", "Apologize"                                   |
 | Jazz turnaround           | ii-V-I                | Dm-G-C              | Jazz standard turnaround                                |
 | Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon"                           |
 | Singer-songwriter         | I-IV-vi-V             | C-F-Am-G            | "Self Esteem", "What's Up"                              |
-| Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
 | Twelve-bar blues          | I-I-I-I-IV-IV-I-I-V-IV-I-V  | C-C-C-C-F-F-C-C-G-F-C-G  | Boogie-woogie blues                          |
+| Amazing Grace             | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I  | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                        |
 | Canon progression         | I-V-vi-iii-IV-I-IV-V  | C-G-Am-Em-F-C-F-G   | "Pachelbel's Canon" progression                         |
 | Mixolydian vamp           | I-VII$\flat$-IV       | C-B$\flat$-F        | "Sweet Child O' Mine", modal mixture                    |
 

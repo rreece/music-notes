@@ -23,6 +23,7 @@ Wikipedia:
 -   [Chord notation](https://en.wikipedia.org/wiki/Chord_notation)
 -   [Roman numeral analysis](https://en.wikipedia.org/wiki/Roman_numeral_analysis)
 -   [Chord progression](https://en.wikipedia.org/wiki/Chord_progression)
+-   [List of chord progressions](https://en.wikipedia.org/wiki/List_of_chord_progressions)
 -   [Lead sheet](https://en.wikipedia.org/wiki/Lead_sheet) AKA "fake book"
 -   [Real book](https://en.wikipedia.org/wiki/Real_Book)
 
