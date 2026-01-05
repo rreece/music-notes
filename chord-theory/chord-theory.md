@@ -3,10 +3,11 @@
 This document is my attempt to write the brief introduction to music theory I wish I had.
 I try to motivate from first principles why music has the structure it has
 and what the palette of options are.
-What does it take to make a song?
 
-The initial goal is to introduce the concept of a *mode* in music theory,
+The initial goal is to introduce the concept of a mode in music theory,
 and to focus on the major and minor modes as examples.
+The final target is to introduce chord progressions.
+What does it take to make a song?
 
 
 # Modes
@@ -156,7 +157,7 @@ Note that the major chords that are allowed in a major mode key are I, IV, and V
 Many pop songs have been written that utilize or focus on only these chords,
 perhaps throwing in a vi chord.
 Common chord progressions in Western pop music are listed in
-Table&nbsp;\ref{tbl:pop-major-progressions}.
+Table&nbsp;\ref{tbl:pop-major-progressions}
 and Table&nbsp;\ref{tbl:pop-minor-progressions}.
 
 Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-major-progressions}
