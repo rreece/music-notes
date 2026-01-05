@@ -133,7 +133,7 @@ The 1st trichord is clearly a C-major chord: C-E-G.
 The 2nd trichord beginning with D as the root is D-F-A,
 where note that since D-F is a minor 3rd this trichord is minor.
 Therefore the second chord in the key of C major is Dm.
-The third chord is E-G-A, which is Em, and so on.
+The third chord is E-G-B, which is Em, and so on.
 One can tell which notes are allowed in each chord by remembering that
 we always pick only from the white piano keys in the key of C major.
 
