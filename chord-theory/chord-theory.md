@@ -213,3 +213,8 @@ Simplified sample from "So What" by Miles Davis and Bill Evans:
 
 \lilypondfile{so-what.ly}
 
+Part of the beauty of the voicing of Evan's chords is that he builds them by stacking perfect 4ths and then adding a major 3rd on top.
+That makes a Em11 chord that includes a 7th and a 11th (4th), but drops the 9th (2nd).
+A focus on building chords from 4ths instead of 3rds and 5ths is called *quartal harmony*
+and it results in chords that sound harmonically ambiguous.
+
