@@ -66,7 +66,7 @@ Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 | M6       | Major sixth    |         9 |     5:3 $\approx 1.667$ |       $2^{9/12} \approx 1.682$ |
 | m7       | Minor seventh  |        10 |    16:9 $\approx 1.778$ |      $2^{10/12} \approx 1.782$ |
 | M7       | Major seventh  |        11 |          15:8 $= 1.875$ |      $2^{11/12} \approx 1.888$ |
-| O        | Octave         |        12 |           2:1 $= 2.000$ |            $2^{12/12} = 2.000$ |
+| P8       | Octave         |        12 |           2:1 $= 2.000$ |            $2^{12/12} = 2.000$ |
 
 The tritone is an augmented fourth or a diminished fifth (A4/d5), also called the "devil's interval".
 It is sometimes defined as 45:32 or 64:45 or $\sqrt{2}$:1.
@@ -82,7 +82,7 @@ In *just intonation* (or *pure tuning*), intervals use simple integer frequency 
 These ratios produce the most consonant, pure-sounding intervals because the overtones align perfectly.[^Pythagoras]
 However, just intonation creates problems when changing keys or playing complex harmony.
 
-[^Pythagoras]: Versions of just intonation where understood in ancient Greece, attributed to Pythagoras and later Eratosthenes.
+[^Pythagoras]: Versions of just intonation where understood in ancient Greece, attributed to Pythagoras and later to Eratosthenes.
 
 *Equal temperament* solves this by dividing the octave into 12 equal semitones, where each semitone has a frequency ratio of $2^{1/12} \approx 1.0595$.
 This means a perfect fifth has a ratio of $2^{7/12} \approx 1.4983$ instead of exactly 3:2 = 1.5.
@@ -90,8 +90,13 @@ While equal temperament makes most intervals slightly out of tune compared to th
 it allows music to be played in any key with the same relative tuning,
 making it the standard tuning system for Western music since the 18th century.[^EqualTemperament]
 
-[^EqualTemperament]: Equal temperament was first formalized by Zhu Zaiyu in China in 1584,
-    and independently by Simon Stevin in the Netherlands in 1585.
+[^EqualTemperament]: Twelve-tone equal temperament (TET) was first formalized by Zhu Zaiyu in China in 1584,
+    and independently by Simon Stevin in the Netherlands in 1585 or some years later.
+
+    One can motivate why 12 is a nice number of semitones in an octave because it is arguably
+    the coarsest equal division where both the 4th ($2^{4/12} \approx 4/3$) and the
+    5th ($2^{5/12} \approx 3/2$) are approximations that are acceptably close to pure
+    for the average human ear.
 
 
 # Trichords
@@ -99,7 +104,8 @@ making it the standard tuning system for Western music since the 18th century.[^
 The scaffolding on which we will build chords are trichords, consisting of scale degrees 1-3-5 (root, third, fifth).
 The minor or major quality of the chord is determined by the 3rd interval being major or minor.
 Here are C-major and C-minor chords, and their first and second inversions, derived by rotating the bottom note to an octave higher.
-Following that are augmented and diminished versions of a C chord, where the 5th is raised or lowered a half step, respectively.
+Following that are augmented (Caug or C+) and diminished (Cdim or C${}^{\circ}$) versions of a C chord,
+where the 5th is raised or lowered a half step, respectively.
 
 \lilypondfile{trichords.ly}
 
@@ -136,8 +142,10 @@ regardless of the key they are played in.
 
 For the major and minor modes, the answer turns out to be
 
-Major: I ii iii IV V vi vii${}^{\circ}$     
-Minor: i ii${}^{\circ}$ III iv v VI VII        
+\begin{tabular}{lccccccc}
+Major: & I   & ii & iii & IV    & V   & vi    & vii${}^{\circ}$ \\
+Minor: & i   & ii${}^{\circ}$ & III & iv & v & VI & VII \\
+\end{tabular}
 
 To step through why this is the case, consider the C-major key as an example.
 The 1st trichord is clearly a C-major chord: C-E-G.
@@ -202,7 +210,7 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 | Blues turnaround          | V-VI-I                | G-F-C               | Blues standard turnaround                               |
 | Eight-bar blues           | I-V-IV-IV-I-V-I-V     | C-G-F-F-C-G-C-G     | "Key to the Highway"                                    |
 | Twelve-bar blues          | I-I-I-I-IV-IV-I-I-V-IV-I-V  | C-C-C-C-F-F-C-C-G-F-C-G  | Boogie-woogie blues                          |
-| 14-bar hymn               | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I      | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                        |
+| 14-bar hymn               | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I      | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                      |
 | 14-bar folk song          | I-IV-I-I-ii-V-V7-I-IV-I-IV-I-V-I   | C-F-C-C-D-G-G7-C-F-C-F-C-G-C   | "I've Been Working on the Railroad", "The Eyes of Texas" |
 | Jazz turnaround           | ii-V-I                | Dm-G-C              | Jazz standard turnaround                                |
 | Circle progression        | I-vi-ii-V             | C-Am-Dm-G           | "Heart and Soul", "Blue Moon"                           |
@@ -212,7 +220,7 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 
 Table: Common chord progressions in Western pop music in minor keys. {#tbl:pop-minor-progressions}
 
-| Name/Description          | Progression           | Example in A minor  | Notable songs                                           |
+| Name                      | Progression           | Example in A minor  | Notable songs / Description                             |
 |:--------------------------|:----------------------|:--------------------|:--------------------------------------------------------|
 | Aeolian vamp              | i-VI-III-VII          | Am-F-C-G            | "All Along the Watchtower", "Stairway to Heaven" intro  |
 | Minor three-chord         | i-iv-v                | Am-Dm-Em            | "Summertime", basic minor progression                   |
