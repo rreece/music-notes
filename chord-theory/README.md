@@ -14,6 +14,10 @@ Theory:
 -   [17 Most Common Pop Chord Progressions](https://www.guitarlobby.com/pop-chord-progressions/)
 -   [What is modal music?](https://www.clrn.org/what-is-modal-music/)
 -   [So What Chord](https://www.thejazzpianosite.com/jazz-piano-lessons/jazz-chord-voicings/so-what-chord/)
+-   [Vanilla Book](http://www.ralphpatt.com/Song.html)
+-   [TonnetzViz](https://cifkao.github.io/tonnetz-viz/)
+-   Baez, J. (2025). [The Mathematics of Tuning Systems](https://johncarlosbaez.wordpress.com/2025/12/26/the-mathematics-of-tuning-systems/). - blog
+-   Baez, J. (2026). [The Mathematics of Tuning Systems](https://math.ucr.edu/home/baez/tuning_talk/tuning_talk.pdf). - slides
 
 Wikipedia:
 

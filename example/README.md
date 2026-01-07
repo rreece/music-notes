@@ -45,6 +45,12 @@ Typesetting:
 -   [abcnotation.com](https://abcnotation.com/)
 -   [lilypond.org](https://lilypond.org/)
 
+Wikipedia:
+
+-   [ABC notation](https://en.wikipedia.org/wiki/ABC_notation)
+-   [LilyPond](https://en.wikipedia.org/wiki/LilyPond)
+
+
 Author
 -------------------------------------------------------------------------------
 
