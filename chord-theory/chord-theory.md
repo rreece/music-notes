@@ -51,7 +51,7 @@ We will use notes of different intervals together to build chords.
 
 \lilypondfile{intervals.ly}
 
-Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
+Table: All the two-note intervals in 12-tone music.[^Tritone] {#tbl:intervals}
 
 | Semitones | Interval              |       Freq ratio (just) |        Freq ratio (equal temp) |        Error |
 |----------:|:----------------------|------------------------:|-------------------------------:|-------------:|
@@ -68,9 +68,9 @@ Table: All the two-note intervals in 12-tone music. {#tbl:intervals}
 |        11 | Major seventh (M7)    |          15:8 $= 1.875$ |      $2^{11/12} \approx 1.888$ | $+0.013$ |
 |        12 | Octave (P8)           |           2:1 $= 2.000$ |            $2^{12/12} = 2.000$ |  $0.000$ |
 
-The tritone is an augmented fourth or a diminished fifth (A4/d5), also called the "devil's interval".
-It is sometimes defined as 45:32 or 64:45 or $\sqrt{2}$:1.
-The minor seventh is sometimes defined as 16:9 or 9:5.
+[^Tritone]: The tritone is an augmented fourth or a diminished fifth (A4/d5), also called the "devil's interval".
+    It is sometimes defined as 45:32 or 64:45 or $\sqrt{2}$:1.
+    The minor seventh is sometimes defined as 16:9 or 9:5.
 
 That certain intervals have simple mathematical ratios for the ratios of
 their frequencies is a rough start at the answer to:
