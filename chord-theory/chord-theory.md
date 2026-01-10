@@ -207,7 +207,7 @@ Table: Common chord progressions in Western pop music in major keys. {#tbl:pop-m
 | Three-chord rock          | I-IV-V                | C-F-G               | "La Bamba", "Twist and Shout", "Wild Thing"             |
 | Rock ballad               | vi-V-IV-V             | Am-G-F-G            | Common in rock music                                    |
 | Alternative progression   | vi-IV-I-V             | Am-F-C-G            | "Zombie", "Apologize"                                   |
-| Blues turnaround          | V-VI-I                | G-F-C               | Blues standard turnaround                               |
+| Blues turnaround          | V-IV-I                | G-F-C               | Blues standard turnaround                               |
 | Eight-bar blues           | I-V-IV-IV-I-V-I-V     | C-G-F-F-C-G-C-G     | "Key to the Highway"                                    |
 | Twelve-bar blues          | I-I-I-I-IV-IV-I-I-V-IV-I-V  | C-C-C-C-F-F-C-C-G-F-C-G  | Boogie-woogie blues                          |
 | 14-bar hymn               | I-IV-I-I-V-V-I-I-IV-I-I-V-I-I      | C-F-C-C-G-G-C-C-F-C-C-G-C-C | "Amazing Grace"                      |
